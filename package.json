@@ -1,0 +1,21 @@
+{
+  "name": "image-text-extract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ocr"
+  ],
+  "author": "Chao Mu, Zhengmin (Jeff)",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/vision": "^0.12.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "pug": "^2.0.0-rc.4",
+    "route-parser": "0.0.5"
+  }
+}
