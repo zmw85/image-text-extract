@@ -13,7 +13,7 @@ let googleVisionService = require('./services/googleVision');
 //     console.log(res);
 //   });
   
-googleVisionService.textDetection('images/removed_noice_2.png')
+googleVisionService.textDetection('images/test.png')
   .then(res => {
     console.log(`extracted text: ${res}`);
 
